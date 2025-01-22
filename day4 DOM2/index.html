@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      #container,
+      .content {
+        height: 200px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+      }
+      #para {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./dom.js"></script>
+    <div id="container">
+      <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        dolore modi repudiandae quasi deserunt assumenda obcaecati voluptas
+        necessitatibus dolorem inventore molestias aspernatur fugit hic
+        recusandae magni suscipit, voluptate animi quibusdam. Quaerat et
+        corporis asperiores temporibus incidunt libero ipsam tenetur soluta
+        impedit, minima aspernatur totam illum consequuntur ad tempore ipsa
+        pariatur quos? Rem temporibus corporis facere esse explicabo officia
+        dolore ullam. Possimus impedit inventore pariatur voluptates vitae eaque
+        quas unde sequi distinctio debitis, consequuntur ullam quasi illum harum
+        error temporibus laboriosam doloremque nostrum fugit dicta cupiditate
+        excepturi a? Cum, ipsum qui! Rem, repudiandae, iure recusandae qui
+        laudantium, excepturi ab quod at est culpa et ducimus molestias veniam
+        quaerat maiores? Eum sunt ducimus deserunt consequuntur vero labore
+        cupiditate sit, facere qui corrupti. Officia in ab delectus, soluta,
+        assumenda aliquam enim quibusdam minima ex sequi maxime temporibus, non
+        tempora. Nisi quam molestiae esse consequuntur veniam incidunt possimus
+        doloremque quaerat soluta sit? Nisi, ea!
+      </p>
+    </div>
+    <button onclick="show()">Click Me</button>
+    <br /><br />
+    <h1>Task -2</h1>
+    <div class="content">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis,
+        atque fuga ea aut mollitia vero quis, consequatur labore, autem amet
+        totam laboriosam maiores saepe quas laudantium modi? Assumenda, qui
+        quam? Quam adipisci eius reprehenderit maiores quisquam ipsam inventore
+        facilis suscipit sed voluptatem aliquid autem quae, saepe quo earum
+        expedita debitis consectetur iste optio pariatur. Fugiat eos dolorem
+        dolore quaerat pariatur.
+      </p>
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eligendi
+        recusandae incidunt odit asperiores nam sed, eveniet, magnam
+        voluptatibus illum perferendis amet consectetur itaque vero animi quae
+        quod similique nostrum.
+      </p>
+    </div>
+    <button onclick="remove()">Click Me</button>
+    <h1>Task 4</h1>
+    
+    <button onclick="change()" id="change">Click Me</button>
+    <h1>Task 5</h1>
+    <input type="text" id="itemInput" placeholder="Enter item text" />
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Last Item</button>
+    <ul id="unorderedList"></ul>
+  </body>
+</html>
