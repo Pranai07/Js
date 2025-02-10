@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "2",
+      "name": "Saikrishna"
+    },
+    {
+      "name": "Vinay Raju",
+      "id": "4"
+    },
+    {
+      "id": "5d2a",
+      "name": "Ramu"
+    },
+    {
+      "id": "22c2",
+      "name": "Again"
+    },
+    {
+      "id": "1802",
+      "name": "Alekhya"
+    },
+    {
+      "id": "84ba",
+      "name": "Ishwarya"
+    },
+    {
+      "id": "030a",
+      "name": "Sai Nath"
+    },
+    {
+      "id": "7c1d",
+      "name": "Pranai"
+    },
+    {
+      "id": "1e04",
+      "name": "Mahesh"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            padding: 10px;
+            margin: 6px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+        }
+
+        #container>div {
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="name" placeholder="username">
+    <button onclick="saveData()">Submit</button>
+    <button onclick="deleteAllData()">Delete All</button>
+    <div id="container"></div>
+    <script src='./script.js'></script>
+</body>
+
+</html>
